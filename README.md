@@ -14,7 +14,7 @@
 <br/>
 本项目提供了一个用来处理单个一般emoji文本的脚本文件[main_handle_a_sentence.py](https://github.com/2654400439/emoji_text_translator/blob/main/main_handle_a_sentence.py)和一个专门用来处理比赛测试集的脚本文件[main_test_dataset.py](https://github.com/2654400439/emoji_text_translator/blob/main/main_test_dataset.py)，您可以根据需要自行选择。  
 <br/>
-**To 竞赛工作人员**: 请使用针对测试集的脚本文件进行结果验证，若使用处理单个emoji文本的脚本文件对测试集进行处理，ETT将会退化成84分左右的模型，因为竞赛过程的ETT增加了面向数据集的拼音处理模块和不同语境处理模块，该模块在一般场景下泛用性差，故在面向单个一般emoji文本的脚本文件中已经去除。面向拼音处理模块和不同语境处理模块详见[连接]。
+**To 竞赛工作人员**: 请使用针对测试集的脚本文件进行结果验证，若使用处理单个emoji文本的脚本文件对测试集进行处理，ETT将会退化成84分左右的模型，因为竞赛过程的ETT增加了面向数据集的拼音处理模块和不同语境处理模块，该模块在一般场景下泛用性差，故在面向单个一般emoji文本的脚本文件中已经去除。面向拼音处理模块和不同语境处理模块详见[额外功能模块介绍（面向竞赛）](#competition)。
 <br/>
 <br/>
 <br/>
@@ -34,6 +34,7 @@
 ### 3. 功能模块介绍  
 padding
 <br/>
+<a id="competition"></a>
 ### 4. 额外功能模块介绍（面向竞赛）  
 padding
 <br/>
@@ -43,7 +44,10 @@ padding
 ```python
 pip install -r ./requirements.txt
 ```
-**下载BERT预训练语言模型**（不使用BERT模块则不需要），具体[参见这里](https://github.com/2654400439/emoji_text_translator/blob/main/dataset/Readme.md)。 
+**下载BERT预训练语言模型**（不使用BERT模块则不需要），具体[参见这里](https://github.com/2654400439/emoji_text_translator/blob/main/dataset/Readme.md)。  
+<br/>
+<br/>
+**To 竞赛工作人员**: 请使用针对测试集的脚本文件进行结果验证，若使用处理单个emoji文本的脚本文件对测试集进行处理，ETT将会退化成84分左右的模型，因为竞赛过程的ETT增加了面向数据集的拼音处理模块和不同语境处理模块，该模块在一般场景下泛用性差，故在面向单个一般emoji文本的脚本文件中已经去除。面向拼音处理模块和不同语境处理模块详见[额外功能模块介绍（面向竞赛）](#competition)。  
 <br/>
 #### 使用场景：（1）脚本模式（2）命令行模式（3）竞赛测试集模式（4）网站api模式
 > **（1）脚本模式**
