@@ -25,4 +25,7 @@ padding
 padding
 <br/>
 ### 5. 运行  
-padding
+运行环境：python3.9
+```python
+pip install -r ./requirements.txt
+```
