@@ -1,7 +1,7 @@
 ## ./dataset/
 ## *tips:请自行下载[bert_base_chinese预训练模型](https://huggingface.co/bert-base-chinese/tree/main)，并将文件夹放在./dataset/中*
 
-该目录下包含了本项目所需要的所有数据集  
+该目录下包含了本项目所需要的所有数据  
 1.  ./bert_base_chinese/存放bert预训练模型（**需自行下载**）  
 文件夹中应至少包括pytorch_model.bin(392MB)和该模型的配置文件以及tokenizer文件（tf和flax版本不需要）
 2.  ./verb_and_fixed_data/存放bert动词模型和固定搭配模型需要用到的预处理好的数据
