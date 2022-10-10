@@ -1,0 +1,10 @@
+emoji==2.0.0
+jieba==0.42.1
+nltk==3.7
+numpy==1.21.5
+python_Levenshtein==0.20.5
+torch==1.11.0
+tqdm==4.64.1
+transformers==4.22.0
+translate==3.6.1
+xpinyin==0.7.6
