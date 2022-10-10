@@ -216,7 +216,7 @@ def main():
     data_test = data_test.tolist()
     data_test.insert(0, ['id\tprediction'])
 
-    with open('./result/1009_1.csv', 'w+', encoding='utf-8', newline='') as csvfile:
+    with open('./result/result.csv', 'w+', encoding='utf-8', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(data_test)
 
